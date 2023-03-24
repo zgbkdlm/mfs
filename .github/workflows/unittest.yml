@@ -52,7 +52,7 @@ jobs:
       - name: Do the unit tests
         run: |
           pip install pytest
-          pytest test/
+          pytest tests/
       - name: Logging
         run: |
           echo "This is ${{ github.event.inputs.name }}!"
