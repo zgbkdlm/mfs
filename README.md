@@ -44,7 +44,7 @@ for $k=1,2,\ldots$ and any $N$, which approximately represent the filtering dist
 
 Under mild system conditions, the filter converges to the true solution **in moments and distribution** as $N\to\infty$. Moreover, the filter also gives an asymptotically exact (log) likelihood for parameter estimation, although it's biased. The implementation in JAX allows this likelihood be differentiable in the parameter.
 
-![](./docs/source/figs/banner.gif "Check ./examples/benes_bernoulli.ipynb")
+![](./docs/source/figs/banner.png "Check ./examples/benes_bernoulli.ipynb")
 
 # Installation
 
