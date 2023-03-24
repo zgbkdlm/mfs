@@ -1,4 +1,5 @@
 # Stochastic filtering with moment representation
+[![UnitTest](https://github.com/zgbkdlm/mfs/actions/workflows/unittest.yml/badge.svg)](https://github.com/zgbkdlm/mfs/actions/workflows/unittest.yml)
 
 Implementation of the moment filter introduced in the paper "Stochastic filtering with moment representation". Please 
 cite as follows to use the implementation.
