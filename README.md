@@ -54,7 +54,7 @@ After you have JAX installed, then do
 2. `cd mfs`
 3. `pip install -r requirements.txt`
 4. `pip install -r testing_requirements.txt`
-5. `python setup.py install` or `python setup.py develop` for the editable model.
+5. `python setup.py install` or `python setup.py develop` for the editable model. If `setup.py` is deprecated, then do `python -m pip install .` instead.
 
 # Example
 
