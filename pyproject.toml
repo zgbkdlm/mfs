@@ -1,0 +1,46 @@
+[project]
+name = 'mfs'
+version = '0.1.0'
+description = 'Stochastic filtering with moment representations'
+readme = 'README.md'
+requires-python = '>=3.7'
+license = { file = 'LICENSE' }
+keywords = ['stochastic differential equations', 'statistics', 'filtering', 'smoothing']
+authors = [
+    {name = 'Zheng Zhao', email = 'zz@zabemon.com'},
+]
+maintainers = [
+    {name = 'Zheng Zhao', email = 'zz@zabemon.com'},
+]
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Science/Research',
+    'Intended Audience :: Developers',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'Topic :: Scientific/Engineering :: Information Analysis',
+    'Topic :: Scientific/Engineering :: Mathematics'
+]
+dependencies = [
+    'numpy',
+    'scipy',
+    'jaxlib',
+    'jax>=0.4.1',
+    'jaxopt',
+    'tme>=0.1.5',
+    'sympy',
+    'matplotlib',
+    'typing-extensions'
+]
+
+[project.optional-dependencies]
+test = ['pytest', 'sympy']
+
+[project.urls]
+'Repository' = 'https://github.com/zgbkdlm/mfs'
+'Author' = 'https://zz.zabemon.com'
+
+[build-system]
+requires = ['setuptools>=43.0.0', 'wheel']
+build-backend = 'setuptools.build_meta'

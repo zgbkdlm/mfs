@@ -1,0 +1,9 @@
+numpy
+scipy
+jaxlib
+jax>=0.4.1
+jaxopt
+tme>=0.1.5
+sympy
+matplotlib
+typing-extensions
