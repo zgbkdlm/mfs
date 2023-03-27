@@ -8,12 +8,12 @@ cite as follows to use the implementation.
 @article{
     author = {Zheng Zhao and Juha Sarmarvuori}, 
     title = {Stochastic filtering with moment representation},
-    journal = {arXiv preprint arXiv:placeholder},
+    journal = {arXiv preprint arXiv:2303.13895},
     year = {2023},
 }
 ```
 
-Please feel free to find the preprint at https://zz.zabemon.com/resources/pdfs/mfs.pdf or https://arxiv.org/abs/placeholder.
+Please feel free to find the preprint at https://zz.zabemon.com/resources/pdfs/mfs.pdf or https://arxiv.org/abs/2303.13895.
 
 # Moment filtering
 Consider a model
