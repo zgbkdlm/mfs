@@ -13,7 +13,7 @@ cite as follows to use the implementation.
 }
 ```
 
-Please feel free to find the preprint at https://zz.zabemon.com/resources/pdfs/mfs.pdf or https://arxiv.org/abs/2303.13895.
+Please feel free to find the preprint at https://arxiv.org/abs/2303.13895.
 
 # Moment filtering
 Consider a model
